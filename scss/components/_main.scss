@@ -1,0 +1,29 @@
+main {
+    .index_inicio{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: $medida-principal;
+        #parrafo2{
+            width: 40%;
+        }
+    }
+    #imagen_principal{
+        width: 100%;
+        
+    }
+    #parrafo1{
+        text-align: center;
+    }
+    #parrafo2 {
+        width: 40%;
+        text-align: center;
+    }
+    #subtitulo{
+        margin-top: $medida-principal;
+        margin-bottom: $medida-secundaria;
+    }
+    #subtitulo1{
+        margin: $medida-secundaria;
+    }
+}
