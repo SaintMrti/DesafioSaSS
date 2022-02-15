@@ -10,14 +10,7 @@ p {
   font-weight: bold;
   font-size: 25px; }
 
-.index_subtitles {
-  color: #19323C;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center; }
-
-header #animacion {
+#animacion {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -37,62 +30,75 @@ header #animacion {
   to {
     transform: translateX(2000px); } }
 
-footer {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  font-size: 25px;
-  margin: 15px; }
-
-main .index_inicio {
+/* Index_Flex */
+.index_inicio {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin: 40px; }
-  main .index_inicio #parrafo2 {
-    width: 40%; }
+  align-items: center; }
 
-main #imagen_principal {
-  width: 100%; }
+.index_container {
+  display: flex; }
 
-main #parrafo1 {
+.index_subtitles {
+  color: #19323C;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
   text-align: center; }
 
-main #parrafo2 {
+/* Index CSS */
+.index_principal #imagen_principal {
+  width: 100%; }
+
+.index_principal #parrafo1 {
+  text-align: center; }
+
+.index_principal #parrafo2 {
   width: 40%;
   text-align: center; }
 
-main #subtitulo {
+.index_principal #subtitulo {
   margin-top: 40px;
   margin-bottom: 20px; }
 
-main #subtitulo1 {
+.index_principal #subtitulo1 {
   margin: 20px; }
 
-section .index_container {
-  display: flex;
+/* Index CSS */
+.index_inicio {
+  margin: 40px; }
+  .index_inicio #parrafo2 {
+    width: 40%; }
+
+.index_info .index_container {
   background-color: black;
   color: white;
   margin-top: 40px;
-  text-align: start;
   text-transform: uppercase; }
-  section .index_container .index_contenido {
+  .index_info .index_container .index_contenido {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-size: 40px;
     margin-left: 40px; }
-    section .index_container .index_contenido .imagen_secundaria {
-      width: 95%; }
+    .index_info .index_container .index_contenido .imagen_secundaria {
+      width: 95%;
+      margin-bottom: 15px; }
 
-section #subtitulo1 {
+.index_info #subtitulo1 {
   margin: 20px; }
 
-section #parrafo3 {
+.index_info #parrafo3 {
   margin-inline: 100px;
   text-align: center; }
 
-section #index_bb {
+.index_info #index_bb {
   font-size: 20px;
   text-align: center; }
 
 .index_final {
   text-align: center; }
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin: 15px; }

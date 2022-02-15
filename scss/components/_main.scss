@@ -1,16 +1,7 @@
-main {
-    .index_inicio{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: $medida-principal;
-        #parrafo2{
-            width: 40%;
-        }
-    }
+/* Index CSS */
+.index_principal {
     #imagen_principal{
         width: 100%;
-        
     }
     #parrafo1{
         text-align: center;

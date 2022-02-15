@@ -169,6 +169,8 @@ footer {
     margin: 10px;
 }
 #nosotros_img {
+    display: block;
+    margin: auto;
     width: 50%;
 }
 /* CSS_ubicacion */

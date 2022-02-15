@@ -13,16 +13,14 @@ p {
     font-size: 25px;
 }
 
-.index_subtitles{
-    color: #19323C;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-}
-
-@import "components/header";
 @import "base/variables";
-@import "components/footer";
+@import "base/animaciones";
+
+@import "layout/flex.scss";
+
+@import "components/subtitles";
+@import "components/header";
 @import "components/main";
 @import "components/section.scss";
+@import "components/footer";
+
