@@ -109,6 +109,7 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+
 /* CSS_nosotros */
 
 /* nosotros_clases */
@@ -173,7 +174,10 @@ footer {
     margin: auto;
     width: 50%;
 }
+
 /* CSS_ubicacion */
+
+/* ubicacion_clases */
 .ubi_principal {
     display: flex;
     justify-content: space-evenly;
@@ -200,12 +204,12 @@ footer {
 
 /* CSS_tuterreno */
 
-/* Tutereeno_Classes */
+/* tutereeno_classes */
 .tuterreno_flex {
     display: flex;
     align-items: center;
 }
-/* Tuterreno_IDs */
+/* tuterreno_IDs */
 #tuterreno_titulo {
     margin-top: 80px;
 }

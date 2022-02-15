@@ -7,3 +7,24 @@
 .index_container{
     display: flex;
 }
+
+/* Ubicacion_Flex */ 
+.ubi_principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Tuterreno_FLex */
+.tuterreno_flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Contacto_FLex */
+.contacto_main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+/* Nosotros CSS Grid */
+.nosotros_principal{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "n_header n_header"
+                         "n_main n_main"
+                         "n_sub n_sub"
+                         "n_seccion1 n_seccion2"
+                         "n_footer n_footer";
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+
+    .nosotros_cabeza {
+        grid-area: n_header;
+    }
+    .nosotros_main {
+        grid-area: n_main;
+        text-align: center;
+    }
+    .nosotros_sub {
+        grid-area: n_sub;
+    }
+    .nosotros_seccion1 {
+        grid-area: n_seccion1;
+        text-align: center;
+    }
+    .nosotros_seccion2 {
+        grid-area: n_seccion2;
+        text-align: center;
+    }
+    .nosotros_footer {
+        grid-area: n_footer;
+    }
+}
