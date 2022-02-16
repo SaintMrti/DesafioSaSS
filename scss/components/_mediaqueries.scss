@@ -1,0 +1,80 @@
+/* media queries celulares */
+@media screen and (max-width: 767px) and (min-width: 375px){
+
+    /* TODO Media */
+    p {
+        font-size: 15px;
+    }
+    footer {
+        font-size: 20px;
+    }
+
+     /* Index Media */
+    .index_principal{
+        .index_subtitles {
+            font-size: 20px;
+        }
+    }
+    .index_inicio {
+        flex-wrap: wrap;
+        margin: 5px;
+        #video_principal {
+            height: 205px;
+            margin-top: 40px;
+        }
+        #parrafo2{
+            width: 100%;
+            margin-top: 40px;
+            text-align: center;
+        }
+    }
+    .index_info{
+        .index_subtitles {
+            font-size: 20px;
+        }
+        #parrafo3 {
+            margin: 20px;
+        }
+        .index_container {
+            flex-wrap: wrap;
+            text-align: center;
+            .index_contenido {
+                margin-left: 0;
+                .index_sb { 
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+                .index_tx {
+                    font-size: 15px;
+                }
+                .imagen_secundaria {
+                    width: 80%;
+                    margin: 20px;
+                }
+            }
+        }
+        #index_bb {
+            margin-bottom: 20px;
+            font-size: 10px;
+        }
+    }
+    .index_final{
+        .index_subtitles {
+            font-size: 20px;
+        }
+    }
+    // Animacion Index
+    #animacion {
+        top: 60px;
+        font-size: 10px;
+        animation-duration: 6s;
+    }
+    @keyframes desplazar {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(500px);
+        }
+    }
+}
