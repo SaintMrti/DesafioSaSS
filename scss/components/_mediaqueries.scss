@@ -12,7 +12,7 @@
      /* Index Media */
     .index_principal{
         .index_subtitles {
-            font-size: 20px;
+            @include sub(20px);
         }
     }
     .index_inicio {
@@ -30,7 +30,7 @@
     }
     .index_info{
         .index_subtitles {
-            font-size: 20px;
+            @include sub(20px);
         }
         #parrafo3 {
             margin: 20px;
@@ -41,7 +41,7 @@
             .index_contenido {
                 margin-left: 0;
                 .index_sb { 
-                    font-size: 20px;
+                    @include sub(20px);
                     margin-top: 20px;
                 }
                 .index_tx {
@@ -60,7 +60,7 @@
     }
     .index_final{
         .index_subtitles {
-            font-size: 20px;
+            @include sub(20px);
         }
     }
     // Animacion Index

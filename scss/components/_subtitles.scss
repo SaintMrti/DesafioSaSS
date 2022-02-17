@@ -1,15 +1,11 @@
 // Index CSS
 .index_subtitles{
-    color: #19323C;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
+    @extend %subtitulos;
+    @include sub(40px);
     text-align: center;
 }
 // Nosotros CSS
 .nosotros_subtitles {
-    color: #19323C;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
+    @extend %subtitulos;
+    @include sub(40px);
 }

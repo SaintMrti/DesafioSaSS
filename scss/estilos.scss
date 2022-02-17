@@ -15,6 +15,9 @@ p {
 
 @import "base/variables";
 @import "base/animaciones";
+@import "base/mapas";
+@import "base/extends";
+@import "base/mixins";
 
 @import "layout/flex.scss";
 @import "layout/grid.scss";
@@ -25,4 +28,5 @@ p {
 @import "components/section.scss";
 @import "components/footer";
 @import "components/mediaqueries";
+
 
