@@ -102,7 +102,8 @@ p {
 
 /* Index CSS */
 .index_principal #imagen_principal {
-  width: 100%; }
+  width: 100%;
+  margin-top: 50px; }
 
 .index_principal #parrafo1 {
   text-align: center; }
