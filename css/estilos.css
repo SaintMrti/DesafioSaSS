@@ -100,6 +100,9 @@ p {
 .nosotros_subtitles {
   font-size: 40px; }
 
+header #offcanvasNavbarLabel {
+  color: white; }
+
 /* Index CSS */
 .index_principal #imagen_principal {
   width: 100%;
@@ -268,4 +271,5 @@ footer {
     from {
       transform: translateX(0); }
     to {
-      transform: translateX(500px); } } }
+      transform: translateX(500px); } }
+  /* Nosotros Media */ }
