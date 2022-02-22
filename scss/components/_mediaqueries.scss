@@ -6,8 +6,8 @@
         font-size: 15px;
     }
     footer{
-        h6{
-            font-size: 10px
+        .pie{
+            font-size: 10px;
         }
     }
      /* Index Media */
@@ -79,5 +79,126 @@
         }
     }
     /* Nosotros Media */
-    
+    .nosotros_principal {
+        align-content: start;
+        grid-template-areas: "n_header n_header"
+                             "n_main n_main"
+                             "n_sub n_sub"
+                             "n_seccion1 n_seccion1"
+                             "n_seccion2 n_seccion2"
+                             "n_footer n_footer";
+        grid-template-rows: 40px 1fr 1fr 1fr 1fr;
+        grid-template-columns: 10px;
+        grid-row-gap: 10px;
+        .nosotros_main{
+            .nosotros_subtitles {
+                font-size: 30px;
+            }
+            #nosotros_img {
+                width: 100%;
+            }
+        }
+        .nosotros_sub{
+            .nosotros_subtitles {
+                font-size: 30px;
+            }
+        }
+        .nosotros_seccion1{
+            .section_sub {
+                font-size: 20px;
+            }
+        }
+        .nosotros_seccion2{
+            .section_sub {
+                font-size: 20px;
+            }
+        }
+    }
+    /* Ubicacion Media */
+    .ubi_principal {
+        flex-wrap: wrap;
+        .ubi_frame {
+            width: 100%;
+            .ubi_title {
+                font-size: 20px;
+                text-align: center;
+            }
+            #ubicacion_mapa {
+                width: 100%;
+                height: 300px;
+            }
+        }
+        .ubi_tx{
+            #ubi_parrafo1 {
+                width: 300px;
+                text-align: center;
+            }
+            .ubi_title {
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+    /* Contactanos Media */
+    .contacto_main {
+        flex-wrap: wrap;
+        margin-top: 80px;
+        #contacto_video {
+            height: 205px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    #contacto_formulario{
+        fieldset{
+            .botones{
+                text-align: center;
+            }
+        }
+    }
+    .contacto_section{
+        .contacto {
+            font-size: 20px;
+        }
+    }
+}
+/* media queries tabletas */
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    /* Index Media */
+    .index_sb { 
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .index_tx {
+        font-size: 10px;
+    }
+    /* nosotros_media */
+    .nosotros_main{
+        #nosotros_img {
+            width: 90%;
+            margin-top: 20px;
+        }
+    }
+    /* ubicacion_media */
+    .ubi_principal {
+        flex-wrap: wrap;
+        .ubi_frame {
+            width: 80%;
+            #ubicacion_mapa {
+                width: 90%;
+                height: 300px;
+                margin: 10px;
+            }
+        }
+    }
+    /* contacto_media */
+    .contacto_main {
+        flex-wrap: wrap;
+        #contacto_video {
+            margin-top: 120px;
+            margin-bottom: 10px;
+        }
+    }
 }

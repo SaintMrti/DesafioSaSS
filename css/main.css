@@ -331,7 +331,10 @@ footer {
     .ubi_principal {
         flex-wrap: wrap;
     }
-    #ubi_title {
+    .ubi_frame {
+        width: 100%;
+    }
+    .ubi_title {
         font-size: 20px;
         text-align: center;
     }
@@ -342,9 +345,6 @@ footer {
     #ubi_parrafo1 {
         width: 300px;
         text-align: center;
-    }
-    #ubi_frame {
-        width: 100%;
     }
     /* tuterreno_media */
     #tuterreno_sub {
