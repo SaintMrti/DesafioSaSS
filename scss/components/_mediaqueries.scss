@@ -91,11 +91,11 @@
         grid-template-columns: 10px;
         grid-row-gap: 10px;
         .nosotros_main{
+            .nosotros_carrusel{
+                width: 100%;
+            }
             .nosotros_subtitles {
                 font-size: 30px;
-            }
-            #nosotros_img {
-                width: 100%;
             }
         }
         .nosotros_sub{
@@ -176,7 +176,7 @@
     }
     /* nosotros_media */
     .nosotros_main{
-        #nosotros_img {
+        .nosotros_carrusel{
             width: 90%;
             margin-top: 20px;
         }

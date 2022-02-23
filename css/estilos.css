@@ -124,6 +124,8 @@ header #offcanvasNavbarLabel {
 
 /* Nosotros CSS */
 .nosotros_main .nosotros_carrusel {
+  display: block;
+  margin: auto;
   width: 50%; }
 
 .nosotros_main #nosotros_parrafo {
@@ -274,10 +276,10 @@ footer {
     grid-template-rows: 40px 1fr 1fr 1fr 1fr;
     grid-template-columns: 10px;
     grid-row-gap: 10px; }
+    .nosotros_principal .nosotros_main .nosotros_carrusel {
+      width: 100%; }
     .nosotros_principal .nosotros_main .nosotros_subtitles {
       font-size: 30px; }
-    .nosotros_principal .nosotros_main #nosotros_img {
-      width: 100%; }
     .nosotros_principal .nosotros_sub .nosotros_subtitles {
       font-size: 30px; }
     .nosotros_principal .nosotros_seccion1 .section_sub {
@@ -325,7 +327,7 @@ footer {
   .index_tx {
     font-size: 10px; }
   /* nosotros_media */
-  .nosotros_main #nosotros_img {
+  .nosotros_main .nosotros_carrusel {
     width: 90%;
     margin-top: 20px; }
   /* ubicacion_media */
