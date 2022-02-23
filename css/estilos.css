@@ -123,9 +123,7 @@ header #offcanvasNavbarLabel {
   margin: 20px; }
 
 /* Nosotros CSS */
-.nosotros_main #nosotros_img {
-  display: block;
-  margin: auto;
+.nosotros_main .nosotros_carrusel {
   width: 50%; }
 
 .nosotros_main #nosotros_parrafo {
