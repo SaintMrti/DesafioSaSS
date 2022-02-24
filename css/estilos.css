@@ -313,7 +313,7 @@ footer {
       margin-bottom: 15px;
       margin-left: 5px;
       margin-right: 5px; }
-    .contacto_main #contacto_formulario fieldset #form-titulo {
+    .contacto_main #contacto_formulario fieldset legend {
       text-align: center; }
     .contacto_main #contacto_formulario fieldset .botones {
       text-align: center; }
