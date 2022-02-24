@@ -69,8 +69,19 @@
         margin: 15px;
         width: 300px;
         fieldset{
-            .formulario_textbox{
+            legend{
+                text-align: center;
+                width: 100%;
                 margin: 30px;
+            }
+            .formulario_textbox{
+                font-weight: bold;
+                text-align: center;
+                margin: 40px;
+                width: 300px;
+            }
+            .botones{
+                text-align: center;
             }
         }
     }

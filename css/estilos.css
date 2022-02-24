@@ -158,8 +158,17 @@ header #offcanvasNavbarLabel {
 .contacto_main #contacto_formulario {
   margin: 15px;
   width: 300px; }
-  .contacto_main #contacto_formulario fieldset .formulario_textbox {
+  .contacto_main #contacto_formulario fieldset legend {
+    text-align: center;
+    width: 100%;
     margin: 30px; }
+  .contacto_main #contacto_formulario fieldset .formulario_textbox {
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+    width: 300px; }
+  .contacto_main #contacto_formulario fieldset .botones {
+    text-align: center; }
 
 /* Index_Sections */
 .index_inicio {
@@ -313,10 +322,6 @@ footer {
       margin-bottom: 15px;
       margin-left: 5px;
       margin-right: 5px; }
-    .contacto_main #contacto_formulario fieldset legend {
-      text-align: center; }
-    .contacto_main #contacto_formulario fieldset .botones {
-      text-align: center; }
   .contacto_section .contacto {
     font-size: 20px; } }
 
