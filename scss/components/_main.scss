@@ -52,14 +52,26 @@
 }
 
 /* Tuterreno CSS */
-#tuterreno_titulo {
+.tuterreno_fondo{
+    background-image: url(../../img/04R-CALLE1.png);
     margin-top: 80px;
+    height: 800px;
+    div{
+        div{
+            #tuterreno_titulo {
+                margin-top: 80px;
+            }
+        }
+    }
+    .tuterreno_flex{
+        div{
+            #tuterreno_sub {
+                @extend %subtitulos;
+                @include sub(30px);
+            }
+        }        
+    }
 }
-#tuterreno_sub {
-    @extend %subtitulos;
-    @include sub(30px);
-}
-
 /* Contacto CSS */
 .contacto_main{
     #contacto_video{

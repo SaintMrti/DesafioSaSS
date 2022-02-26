@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -30,6 +31,7 @@ p {
   to {
     transform: translateX(2000px); } }
 
+/* Nosotros_Animación */
 .section_img:hover {
   transform: scale(1.1); }
 
@@ -38,7 +40,7 @@ p {
 
 /* Mapas */
 /* Extends */
-.index_subtitles, .nosotros_subtitles, .ubi_principal .ubi_title, #tuterreno_sub {
+.index_subtitles, .nosotros_subtitles, .ubi_principal .ubi_title, .tuterreno_fondo .tuterreno_flex div #tuterreno_sub {
   color: #19323C;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold; }
@@ -151,11 +153,14 @@ header #offcanvasNavbarLabel {
     width: 600px; }
 
 /* Tuterreno CSS */
-#tuterreno_titulo {
-  margin-top: 80px; }
-
-#tuterreno_sub {
-  font-size: 30px; }
+.tuterreno_fondo {
+  background-image: url(../../img/04R-CALLE1.png);
+  margin-top: 80px;
+  height: 800px; }
+  .tuterreno_fondo div div #tuterreno_titulo {
+    margin-top: 80px; }
+  .tuterreno_fondo .tuterreno_flex div #tuterreno_sub {
+    font-size: 30px; }
 
 /* Contacto CSS */
 .contacto_main #contacto_video {
@@ -319,6 +324,11 @@ footer {
     .ubi_principal .ubi_tx .ubi_title {
       font-size: 20px;
       text-align: center; }
+  /* TuTerreno Media */
+  .tuterreno_fondo {
+    margin-top: 50px; }
+    .tuterreno_fondo div div #tuterreno_titulo {
+      margin-top: 40px; }
   /* Contactanos Media */
   .contacto_main {
     flex-wrap: wrap;
