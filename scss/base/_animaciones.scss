@@ -20,3 +20,9 @@
         transform: translateX(2000px);
     }
 }
+.section_img:hover{
+    transform: scale(1.1);
+}
+.section_img{
+    transition: 500ms;
+}

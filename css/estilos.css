@@ -30,6 +30,12 @@ p {
   to {
     transform: translateX(2000px); } }
 
+.section_img:hover {
+  transform: scale(1.1); }
+
+.section_img {
+  transition: 500ms; }
+
 /* Mapas */
 /* Extends */
 .index_subtitles, .nosotros_subtitles, .ubi_principal .ubi_title, #tuterreno_sub {
@@ -211,6 +217,7 @@ header #offcanvasNavbarLabel {
   font-size: 25px; }
 
 .section_img {
+  margin-top: 15px;
   width: 90%; }
 
 /* Contacto_Sections */
