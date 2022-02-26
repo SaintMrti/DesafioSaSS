@@ -32,10 +32,10 @@ p {
     transform: translateX(2000px); } }
 
 /* Nosotros_Animación */
-.section_img:hover {
+.animationtwo:hover {
   transform: scale(1.1); }
 
-.section_img {
+.animationtwo {
   transition: 500ms; }
 
 /* Mapas */
@@ -198,7 +198,7 @@ header #offcanvasNavbarLabel {
     margin-left: 40px; }
     .index_info .index_container .index_contenido .imagen_secundaria {
       width: 95%;
-      margin-bottom: 15px; }
+      margin-bottom: 25px; }
 
 .index_info #subtitulo1 {
   margin: 20px; }
