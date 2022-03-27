@@ -161,6 +161,11 @@ header #offcanvasNavbarLabel {
     margin-top: 80px; }
   .tuterreno_fondo .tuterreno_flex div #tuterreno_sub {
     font-size: 30px; }
+  .tuterreno_fondo .tuterreno_flex div #tuterreno_parrafo1 .p_color {
+    color: black; }
+
+.descargas {
+  background-color: #F0E7D8; }
 
 /* Contacto CSS */
 .contacto_main #contacto_video {
