@@ -16,6 +16,9 @@
             font-family: 'Roboto Condensed', sans-serif;
             font-weight: bold;
             margin-left: $medida-principal;
+            .index_tx{
+                font-size: $medida-secundaria;
+            }
             .imagen_secundaria{
                 width: 95%;
                 margin-bottom: 25px;

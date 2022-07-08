@@ -201,6 +201,8 @@ header #offcanvasNavbarLabel {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
     margin-left: 40px; }
+    .index_info .index_container .index_contenido .index_tx {
+      font-size: 20px; }
     .index_info .index_container .index_contenido .imagen_secundaria {
       width: 95%;
       margin-bottom: 25px; }
