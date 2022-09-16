@@ -1,4 +1,4 @@
-<h1>Proyecto de Fraccionamiento "Los Tulipanes"</h1>
+<h1>Proyecto Fraccionamiento "Los Tulipanes"</h1>
 <h3>Creado con HTML5, CSS3, SASS y BootStrap</h3>
 
 PÁGINA ESTATICA TOTALMENTE RESPONSIVA/ADAPTATIVA
